@@ -4,12 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="userInterface.css" rel="stylesheet"/>
 <title>User Interface</title>
 </head>
 <body>
-<form action="MainServlet" method="post">
-
-User Interface
+<div>
+<form action="Main" method="post">
+<ul>
+<li style=" list-style: none;">Search Product:<input type ="text" name="search" size="20" id="name" ></li>
+   <li style=" list-style: none;"> <input class="btn" type="submit" name="searchSubmit" value="Search" style="margin-left: 10px; margin-top: 5px; "> </li>   
+</ul>
 </form>
+<form action="Main" method="post">
+<ul>
+   <li style=" list-style: none;"> <input class="btn" type="submit" name="allProduct" value="View all the product" style="margin-left: 10px; margin-top: 5px; "> </li>   
+</ul>
+</form>
+</div>
 </body>
 </html>

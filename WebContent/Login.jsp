@@ -4,16 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="userInterface.css" rel="stylesheet"/>
 <title>Sign in</title>
 </head>
 <body>
-<!--<jsp:useBean id="login" scope="page" class="Laptop.LoginServlet"/> -->
 <div>
 <form method="post" action="LoginServlet">
  <h1>Sign in</h1>
-Username: <input type="text" name="username"> <br>
-Password: <input type="password" name="password"><br>
-<input type="submit" value="Sign In">
+ <ul>
+<li style=" list-style: none;">Username: <input type="text" name="username"></li>
+<li style=" list-style: none;">Password: <input type="password" name="password"></li>
+<li style=" list-style: none;"><input class="btn" type="submit" value="Sign In"></li>
+</ul>
    </form>
    </div>
 </body>

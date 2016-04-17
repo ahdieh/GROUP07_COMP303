@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+body{
+margin-top: 5%;
+    margin-left: 32%;
+  
+}
+div{
+	width: 454px;
+	border: 2px solid  #4d4dff;
+	margin-right: auto;
+	margin-left: auto;
+	}
+form {
+
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 450px;
+  background: #e6e6ff;
+  border: 2px solid  #4d4dff;
+  padding: 10px;
+}
+h1{
+	color:#b300b3; 
+	text-align: center;
+}
+li{
+	margin-left: 2px;
+    margin-right: 5px;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+.btn{
+	background-color: #b300b3;
+	color: #e6e6ff;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+}
