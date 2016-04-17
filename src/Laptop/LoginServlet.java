@@ -40,8 +40,7 @@ public class LoginServlet extends HttpServlet {
 		if(userID.equals(user) && password.equals(pass)){
 		    response.setContentType("text/html");
 			PrintWriter out = response.getWriter();
-			out.println("Welcome "+ user);
-			
+		    response.sendRedirect("UserInterface.jsp");
 
 	}
 		else
